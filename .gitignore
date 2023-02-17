@@ -1,0 +1,4 @@
+#wp-content/uploads
+_private
+node_modules
+wp-config-local.php
