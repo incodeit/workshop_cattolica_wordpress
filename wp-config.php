@@ -5,8 +5,9 @@
     return;
   endif;
 
-  define( 'WP_HOME', 'http://example.com/' );
-  define( 'WP_SITEURL', 'http://example.com/' );
+  $_SERVER['HTTPS'] = 'on';
+  define( 'WP_HOME', 'http://service1.altervista.org/' );
+  define( 'WP_SITEURL', 'http://service1.altervista.org/' );
 
   // ...
 /**
@@ -30,10 +31,10 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'workshop_cattolica_wordpress' );
+define( 'DB_NAME', 'my_service1' );
 
 /** Database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'service1' );
 
 /** Database password */
 define( 'DB_PASSWORD', 'root' );
